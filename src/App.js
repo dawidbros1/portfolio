@@ -9,7 +9,7 @@ import Projects from './components/Projects';
 function App() {
   return (
     <div id="app">
-      <img id="banner" src="./images/baner.png" alt="" />
+      <img id="banner" src="./images/banner.jpg" alt="" />
 
       <main>
         <div id="content">
@@ -22,9 +22,9 @@ function App() {
 
         <div id="info">
           <img src="./images/avatar.png" alt="avatar" />
-          <div className="name">Imię i nazwisko</div>
-          <div className="email">adres emial</div>
-          <div>numer telefony</div>
+          <div className="name">Dawid Gołębiowski</div>
+          <div className="email">dawidbros1@wp.pl</div>
+          <div>782 107 684</div>
         </div>
       </main>
     </div>

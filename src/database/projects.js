@@ -14,7 +14,7 @@ projects.push({
        System obsługuje tworzenie folderów oraz umieszczanie w nich stron, a także przenoszenie stron do innych folderów.
        Każdy element opisany jest za pomocą tytułu oraz obrazka, dzięki czemu szybko możemy zlokalizować pożądaną przez nas zawartość`,
    git: "https://github.com/dawidbros1/bookmarks",
-   // link: "https://mojeprojekty.tk/bookmarks/"
+   link: "https://mojeprojekty.tk/bookmarks/"
 })
 
 projects.push({

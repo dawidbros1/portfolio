@@ -1,3 +1,5 @@
+import './About.scss';
+
 const About = () => {
    return (
       <section id="about">

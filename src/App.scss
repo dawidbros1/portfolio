@@ -17,7 +17,7 @@ body{
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    @media (max-width: 768px) {flex-direction: column-reverse}
+    @media (max-width: 767px) {flex-direction: column-reverse}
   }
 
   #content{
@@ -61,84 +61,7 @@ body{
     img{
       @media (min-width: 768px) { width: 80%; margin-top: 10px; }
     }
-  }
-}
 
-//! TECHNOLOGIES
-#technologies{
-  .technology{
-    width: calc((4/12) * 100%);
-    @media (min-width: 576px) { width: calc((3/12) * 100%); }
-    @media (min-width: 1200px) { width:  calc((2/12) * 100%) }
-    
-    margin: 5px 0;
-    box-sizing: border-box;
-
-    img{
-      width: 64px; height: 64px;
-      @media (min-width: 992px) { width: 96px; height: 96px }
-      @media (min-width: 1200px) { width: 128px; height: 128px }
-    }
-
-    .rates{
-      span{margin: 0px 2px;}
-      .checked{color:pink}
-    }
-  }
-}
-
- //! EDUCATION
- #education {
-  div{ 
-    margin: 5px 0;
-    &:last-child{ margin: 0 }
-   }
-}
-
-//! COURSES
-#courses{
-  .course{
-    margin: 5px 0;
-    border-bottom: 1px solid lightgray;
-    padding: 5px 0px;
-  
-    &:first-child{ padding-top: 0px }
-    &:last-child{  margin: 0; padding-bottom: 0px; border: none }
-
-    div{ 
-      margin: 7px 0; 
-      &:first-child{ margin: 0 }
-      &:last-child{ margin: 0 }
-      a{text-decoration: none; color: #0d6efd }
-    }
-  }
-}
-
-#projects{
-  .project{
-    margin: 5px 0;
-    border-bottom: 1px solid lightgray;
-    padding: 5px 0px;
-    position: relative;
-  
-    &:first-child{ padding-top: 0px }
-    &:last-child{  margin: 0; padding-bottom: 0px; border: none }
-
-    a{text-decoration: none; color: #0d6efd }
-    .title {margin-bottom: 5px;}
-
-    .git{margin-top: 8px}
-
-    .link {
-      position: absolute;
-      border: none;
-      margin: none;
-      padding: none;
-
-      right: 5px;
-      bottom: 2px;
-
-      span{ font-size: 17px }
-    }
+    div{margin-bottom: 5px}
   }
 }

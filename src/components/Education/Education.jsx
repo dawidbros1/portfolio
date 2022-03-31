@@ -1,3 +1,5 @@
+import './Education.scss'
+
 const Education = () => {
    return (
       <section id="education">

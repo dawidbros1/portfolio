@@ -1,4 +1,6 @@
-import { default as data } from "../database/technologies"
+import './Technologies.scss';
+
+import { default as data } from "./../../database/technologies"
 
 const Technologies = () => {
    const html = data.map(technology => {
@@ -22,7 +24,7 @@ const Technologies = () => {
    return (
       <section id="technologies">
          <header>Technologie</header>
-         <div className="flex flex-wrap text-center">{html}</div>
+         <div className="d-flex flex-wrap text-center">{html}</div>
       </section>
    )
 }
