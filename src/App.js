@@ -21,7 +21,7 @@ function App() {
         </div>
 
         <div id="info">
-          <img src="./images/avatar.png" alt="avatar" />
+          <img src="./images/avatar.jpg" alt="avatar" />
           <div className="name">Dawid Gołębiowski</div>
           <div className="email">dawidbros1@wp.pl</div>
           <div>782 107 684</div>
