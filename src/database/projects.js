@@ -12,7 +12,7 @@ projects.push({
    name: "System do zarządzania zakładkami [ PHP ]",
    description: `Jest to system, który umożliwia udostępnienie wiele linków za pomocą jednego linka. 
        System oferuje możliwość tworzenia pojemników (tzw. kategorii), do których następnie możemy dodawać linki stron.
-       Strony można przenosić między różnymi pojemnikami. Każda kategoria jest opatrzona statusem prywatności, co zapewnia bezpieczeńtwo naszych prywanych danych.
+       Strony można przenosić między różnymi pojemnikami. Każda kategoria jest opatrzona statusem prywatności, co zapewnia bezpieczeństwo naszych prywatnych danych.
        Każdy element opisany jest za pomocą tytułu oraz obrazka, dzięki czemu szybko możemy zlokalizować pożądaną przez nas zawartość.`,
    git: "https://github.com/dawidbros1/bookmarks",
    link: "https://mojeprojekty.tk/bookmarks/"
@@ -20,13 +20,14 @@ projects.push({
 
 projects.push({
    name: "System do zarządzania zakładkami [ LARAVEL ]",
-   description: "Wersja projektu, która została napisana w LARAVEL ma poszerzoną strukturę bazy danych o podfoldery. Dodatkowo umożliwia sortowanie elementów wedle własnego uznania.",
+   description: `Wersja projektu, która została napisana w LARAVEL, ma poszerzoną strukturę bazy danych o podfoldery. 
+      Każdy pojedyczny element został zaopatrzony w status prywatności oraz widoczności. Dodatkowo system umożliwia sortowanie elementów wedle własnego uznania.`,
    git: "https://github.com/dawidbros1/bookmarks-laravel",
 })
 
 projects.push({
    name: "Aplikacja do gry Phasmophobia",
-   description: `Jest to aplikacji pomocnicza do gry Phasmophobia, która pomaga w zidentyfikowaniu ducha podczas rozgrywki.
+   description: `Jest to aplikacja pomocnicza do gry Phasmophobia, która pomaga w zidentyfikowaniu ducha podczas rozgrywki.
       Aplikacja umożliwia zaznaczanie znalezionych dowodów, a także eliminację dowodów, których nie udało się odnaleźć.
       W Aplikacji została również zaimplementowana prosta funkcjonalność sterowania głosem, która umożliwia zaznaczania, jak i odznaczanie dowodów.`,
    git: "https://github.com/dawidbros1/ghost-picker-phasmophobia-js",
@@ -44,7 +45,7 @@ projects.push({
 projects.push({
    name: "Task Manager - React",
    description: `Jest to aplikacja, która została napisana po ukończeniu kursu React, w celu sprawdzenia swojej wiedzy z tej technologii.
-      Celem aplikacji jest zarządzania projektami informatycznymi. Użytkownik otrzymuje możliwość tworzenia projektu, a następnie umieszczanie w nim listy zadań.
+      Celem aplikacji jest zarządzania projektami informatycznymi. Użytkownik otrzymuje możliwość tworzenia projektów, a następnie umieszczania w nich listy zadań.
       Każde zadanie posiada jeden z czterech dostępnych statusów, dzięki czemu jest umieszczone w odpowiedniej kolumnie w widoku projektu.`,
    git: "https://github.com/dawidbros1/task-manager",
 })
