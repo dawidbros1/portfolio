@@ -7,7 +7,7 @@ const Courses = () => {
       const icon = "./images/skills/" + course.image + ".png";
 
       return (
-         <div class="course">
+         <div className="course" key={course.name}>
             <img className='icon' src={icon} alt="obrazek" />
             <div className='name'>{course.name}</div>
             <a className='certificate' target="_blank" href={course.certificate} rel="noreferrer">
