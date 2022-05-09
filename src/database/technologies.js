@@ -1,11 +1,11 @@
 const technologies = [];
 
 // FRONT
-technologies.push({ name: "HTML 5", image: "html", rate: 2 });
-technologies.push({ name: "CSS 3", image: "css", rate: 2 });
+technologies.push({ name: "HTML 5", image: "html", rate: 3 });
+technologies.push({ name: "CSS 3", image: "css", rate: 3 });
 technologies.push({ name: "JavaScript", image: "js", rate: 3 })
 
-technologies.push({ name: "Sass", image: "sass", rate: 2 })
+technologies.push({ name: "Sass", image: "sass", rate: 3 })
 technologies.push({ name: "Bootstrap 5", image: "bootstrap", rate: 2 })
 
 technologies.push({ name: "Angular 5", image: "angular", rate: 1 })
