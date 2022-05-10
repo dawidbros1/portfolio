@@ -21,7 +21,7 @@ projects.push({
 projects.push({
    name: "System do zarządzania zakładkami [ LARAVEL ]",
    description: `Wersja projektu, która została napisana w LARAVEL, ma poszerzoną strukturę bazy danych o podfoldery. 
-      Każdy pojedyczny element został zaopatrzony w status prywatności oraz widoczności. Dodatkowo system umożliwia sortowanie elementów wedle własnego uznania.`,
+      Każdy pojedynczy element został zaopatrzony w status prywatności oraz widoczności. Dodatkowo system umożliwia sortowanie elementów wedle własnego uznania.`,
    git: "https://github.com/dawidbros1/bookmarks-laravel",
 })
 
