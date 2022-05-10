@@ -29,7 +29,7 @@ projects.push({
    name: "Aplikacja do gry Phasmophobia",
    description: `Jest to aplikacja pomocnicza do gry Phasmophobia, która pomaga w zidentyfikowaniu ducha podczas rozgrywki.
       Aplikacja umożliwia zaznaczanie znalezionych dowodów, a także eliminację dowodów, których nie udało się odnaleźć.
-      W Aplikacji została również zaimplementowana prosta funkcjonalność sterowania głosem, która umożliwia zaznaczania, jak i odznaczanie dowodów.`,
+      W aplikacji została również zaimplementowana prosta funkcjonalność sterowania głosem, która umożliwia zaznaczania, jak i odznaczanie dowodów.`,
    git: "https://github.com/dawidbros1/ghost-picker-phasmophobia-js",
    link: "https://mojeprojekty.tk/phasmophobia/"
 })
