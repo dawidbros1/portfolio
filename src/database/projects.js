@@ -1,12 +1,12 @@
 const projects = [];
 
-// projects.push({
-//    name: "Podstawka do tworzenia aplikacji w technologii PHP",
-//    description: `Stworzona podstawka to gotowy pakiet startowy plików do tworzenia aplikacji w technologii PHP. 
-//        Starter posiada podstawowe funkcjonalności takie jak rejestracja/logowanie, edycję profilu oraz możliwość przywrócenia hasła. 
-//        Backend aplikacji posiada podział na modele, repozytoria, kontrolery, szablony widoków itp.`,
-//    git: "https://github.com/dawidbros1/php-start",
-// })
+projects.push({
+   name: "Podstawka do tworzenia aplikacji w technologii PHP",
+   description: `Stworzona podstawka to gotowy pakiet startowy plików do tworzenia aplikacji w technologii PHP. 
+       Starter posiada podstawowe funkcjonalności takie jak rejestracja/logowanie, edycję profilu oraz możliwość przywrócenia hasła. 
+       Backend aplikacji posiada podział na modele, repozytoria, kontrolery, szablony widoków itp.`,
+   git: "https://github.com/dawidbros1/php-start",
+})
 
 projects.push({
    name: "System do zarządzania zakładkami [ PHP ]",
