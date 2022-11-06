@@ -1,0 +1,42 @@
+#projects .project {
+  margin: 5px 0;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0px;
+  position: relative;
+}
+
+#projects .project:first-child {
+  padding-top: 0px;
+}
+
+#projects .project:last-child {
+  margin: 0;
+  padding-bottom: 0px;
+  border: none;
+}
+
+#projects .project a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+#projects .project .title {
+  margin-bottom: 5px;
+}
+
+#projects .project .git {
+  margin-top: 8px;
+}
+
+#projects .project .link {
+  position: absolute;
+  border: none;
+  margin: none;
+  padding: none;
+  right: 5px;
+  bottom: 2px;
+}
+
+#projects .project .link span {
+  font-size: 17px;
+}

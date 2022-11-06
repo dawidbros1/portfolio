@@ -1,0 +1,28 @@
+#projects{
+   .project{
+     margin: 5px 0;
+     border-bottom: 1px solid lightgray;
+     padding: 5px 0px;
+     position: relative;
+   
+     &:first-child{ padding-top: 0px }
+     &:last-child{  margin: 0; padding-bottom: 0px; border: none }
+ 
+     a{text-decoration: none; color: #0d6efd }
+     .title {margin-bottom: 5px;}
+ 
+     .git{margin-top: 8px}
+ 
+     .link {
+       position: absolute;
+       border: none;
+       margin: none;
+       padding: none;
+ 
+       right: 5px;
+       bottom: 2px;
+ 
+       span{ font-size: 17px }
+     }
+   }
+ }

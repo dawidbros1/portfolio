@@ -1,0 +1,117 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+#app img#banner {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #app img#banner {
+    height: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  #app img#banner {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #app img#banner {
+    height: 250px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #app img#banner {
+    height: 300px;
+  }
+}
+
+#app main {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  #app main {
+    flex-direction: column-reverse;
+  }
+}
+
+#app #content {
+  width: 100%;
+  padding-right: 10px;
+  border-right: 1px solid lightgray;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  #app #content {
+    width: calc((9/12) * 100%);
+  }
+}
+
+@media (min-width: 1200px) {
+  #app #content {
+    width: calc((10/12) * 100%);
+  }
+}
+
+@media (max-width: 768px) {
+  #app #content {
+    border-right: none;
+    padding: 0px;
+  }
+}
+
+#app section {
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#app section header {
+  font-weight: bold;
+  font-size: 28px;
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+}
+
+#app section:last-child {
+  border-bottom: none;
+}
+
+#app #info {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #app #info {
+    width: calc((3/12) * 100%);
+  }
+}
+
+@media (min-width: 1200px) {
+  #app #info {
+    width: calc((2/12) * 100%);
+  }
+}
+
+@media (min-width: 768px) {
+  #app #info img {
+    width: 80%;
+    margin-top: 10px;
+  }
+}
+
+#app #info div {
+  margin-bottom: 5px;
+}
