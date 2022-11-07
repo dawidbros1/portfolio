@@ -7,7 +7,7 @@ class ProjectDatabase {
    init() {
       this.projects.push({
          name: "Youtube subscription manager",
-         description: `Jest to aplikacja do serwisu YouTube, która umożliwia segregowanie swoich subskrypcji.`,
+         description: `Jest to aplikacja, która umożliwia segregowanie subskrypcji z serwisu YouTube poprzez dodanie ich do stworzonych grup.`,
          git: "https://github.com/dawidbros1/youtube-subscriptions-manager",
       })
 
