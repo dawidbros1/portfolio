@@ -6,6 +6,12 @@ class ProjectDatabase {
 
    init() {
       this.projects.push({
+         name: "Youtube subscription manager",
+         description: `Jest to aplikacja do serwisu YouTube, która umożliwia segregowanie swoich subskrypcji.`,
+         git: "https://github.com/dawidbros1/youtube-subscriptions-manager",
+      })
+
+      this.projects.push({
          name: "Podstawka do tworzenia aplikacji w technologii PHP",
          description: `Stworzona podstawka to gotowy pakiet startowy plików do tworzenia aplikacji w technologii PHP. 
              Starter posiada podstawowe funkcjonalności takie jak rejestracja/logowanie, edycję profilu oraz możliwość przywrócenia hasła. 
@@ -34,37 +40,6 @@ class ProjectDatabase {
          name: "Forum [ Symfony ]",
          description: `Jest to proste forum umożliwiające tworzenie wątków dla administratora, a także tematów, postów i komentarzy dla użytkowników.`,
          git: "https://github.com/dawidbros1/forum",
-      })
-
-      this.projects.push({
-         name: "Aplikacja do gry Phasmophobia [ JavaScript ]",
-         description: `Jest to aplikacja pomocnicza do gry Phasmophobia, która pomaga w zidentyfikowaniu ducha podczas rozgrywki.
-            Aplikacja umożliwia zaznaczanie znalezionych dowodów, a także eliminację dowodów, których nie udało się odnaleźć.
-            W aplikacji została również zaimplementowana prosta funkcjonalność sterowania głosem, która umożliwia zaznaczania, jak i odznaczanie dowodów.`,
-         git: "https://github.com/dawidbros1/phasmophobia-ghost-picker",
-         link: "https://projekty.tk/phasmophobia/app/"
-      })
-
-      // this.projects.push({
-      //    name: "Aplikacja do gry Phasmophobia w Angularze",
-      //    description: `Jest to aplikacji pomocnicza do gry Phasmophobia, która pomaga w zidentyfikowaniu ducha w grze..
-      //        W tej wersji aplikacji został napisany prosty back-end w języku PHP. Po stronie serwera możemy zarządzać duchami oraz dowodami, dzięki czemu szybko możemy aktualizować dane.
-      //        Po stronie front-endu dane z serwera zostają pobrane do aplikacji i odpowiednio przetworzone.`,
-      //    git: "https://github.com/dawidbros1/ghost-picker-phasmophobia-angular",
-      // })
-
-      this.projects.push({
-         name: "Task Manager - Frontend [ React ]",
-         description: `Jest to aplikacja, która została napisana po ukończeniu kursu React, w celu sprawdzenia swojej wiedzy z tej technologii.
-            Celem aplikacji jest zarządzania projektami informatycznymi. Użytkownik otrzymuje możliwość tworzenia projektów, a następnie umieszczania w nich listy zadań.
-            Każde zadanie posiada jeden z czterech dostępnych statusów, dzięki czemu jest umieszczone w odpowiedniej kolumnie w widoku projektu.`,
-         git: "https://github.com/dawidbros1/task-manager-frontend",
-      })
-
-      this.projects.push({
-         name: "Task Manager - API [ PHP ]",
-         description: `Jest to API dla front-endu aplikacji Task Manager. Waliduje przesłane dane do serwera. Wysyła odpowiedni response do front-endu na requesty użytkownika.`,
-         git: "https://github.com/dawidbros1/task-manager-api",
       })
    }
 
