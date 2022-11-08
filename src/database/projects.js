@@ -8,7 +8,7 @@ class ProjectDatabase {
       this.projects.push({
          name: "Aplikacja do segregowania subskrypcji z serwisu YouTube [ PHP ]",
          description: `Jest to aplikacja, która umożliwia tworzenie pojemników, do których następnie będą dodawane nasze subskrypcje, a także wyświetlanie filmów z danej grupy.`,
-         git: "https://github.com/dawidbros1/youtube-subscriptions-manager",
+         git: "https://github.com/dawidbros1/youtube-subscription-manager",
       })
 
       this.projects.push({
