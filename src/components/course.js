@@ -22,7 +22,7 @@ class Course {
          components += component;
       });
 
-      this.section.innerHTML = "<header>Ukończone kursy</header>";
+      this.section.innerHTML = "<header>Kursy i szkolenia</header>";
       this.section.innerHTML += `<div class='d-flex flex-wrap'>${components}</div>`;
    }
 }
