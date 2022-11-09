@@ -13,32 +13,30 @@ class ProjectDatabase {
 
       this.projects.push({
          name: "Podstawka do tworzenia aplikacji w technologii PHP",
-         description: `Jest to gotowy pakiet startowy plików do tworzenia aplikacji w technologii PHP. 
-             Starter posiada podstawowe funkcjonalności takie jak rejestracja/logowanie, edycję profilu oraz możliwość przywrócenia hasła. 
-             Backend aplikacji posiada podział na modele, repozytoria, kontrolery, szablony widoków itp.`,
+         description: `Jest to pakiet startowy plików do tworzenia aplikacji w technologii PHP. 
+            Pakiet posiada moduł użytkownika zawierający takie funkcjonalności jak rejestracja/logowanie, zarządzanie profilem oraz przywrócenie hasła.
+            Backend pakietu korzysta ze wzorca MVC.`,
          git: "https://github.com/dawidbros1/php-start",
       })
 
       this.projects.push({
          name: "Aplikacja do zarządzania zakładkami [ PHP ]",
-         description: `Jest to system, który umożliwia udostępnienie wiele linków za pomocą jednego linka. 
-             System oferuje możliwość tworzenia pojemników (tzw. kategorii), do których następnie możemy dodawać linki do stron.
-             Strony można przenosić między różnymi pojemnikami. Każda kategoria jest opatrzona statusem prywatności, co zapewnia bezpieczeństwo naszych prywatnych danych.
-             Każdy element opisany jest za pomocą tytułu oraz obrazka, dzięki czemu szybko możemy zlokalizować pożądaną przez nas zawartość.`,
+         description: `Jest to aplikacja, która ułatwia dostęp do pożądanej przez nas zawartości na różnych urządzeniach. 
+            Aplikacja umożliwia segregowanie naszych stron w kategorie, które następnie możemy udostępnić znajomym.`,
          git: "https://github.com/dawidbros1/bookmarks",
          link: "https://mybookmarks.cf/"
       })
 
       this.projects.push({
          name: "Aplikacja do zarządzania zakładkami [ LARAVEL ]",
-         description: `Wersja projektu, która została napisana w LARAVEL, ma poszerzoną strukturę bazy danych o podfoldery. 
-            Każdy pojedynczy element został zaopatrzony w status prywatności oraz widoczności. Dodatkowo aplikacja umożliwia sortowanie elementów wedle własnego uznania.`,
+         description: `Jest to rozszerzona wersja aplikacji napisanej w języku PHP. 
+            Aplikacja została rozszerzona o możliwość tworzenia podfolderów, a także został dodany moduł do zarządzania folderami.`,
          git: "https://github.com/dawidbros1/bookmarks-laravel",
       })
 
       this.projects.push({
          name: "Proste forum internetowe [ Symfony ]",
-         description: `Jest to proste forum umożliwiające tworzenie wątków dla administratora, a także tematów, postów i komentarzy dla użytkowników.`,
+         description: `Jest to proste forum internetowe umożliwiające tworzenie wątków dla administratora, a także tematów, postów i komentarzy dla użytkowników.`,
          git: "https://github.com/dawidbros1/forum",
       })
    }
