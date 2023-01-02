@@ -20,12 +20,20 @@ class ProjectDatabase {
       })
 
       this.projects.push({
+         name: "Aplikacja do zarządzania zadaniami [ LARAVEL ]",
+         description: `Jest to aplikacja do prostego oraz intuicyjnego zarządzania zadaniami. 
+            Dzięki niej możesz tworzyć kategorie na zadania, do których następnie będziesz mógł dodawać konkretne zadania.`,
+         git: "https://github.com/dawidbros1/todo-app",
+      })
+
+      this.projects.push({
          name: "Aplikacja do zarządzania zakładkami [ PHP ]",
          description: `Jest to aplikacja, która ułatwia dostęp do pożądanej przez nas zawartości na różnych urządzeniach. 
             Aplikacja umożliwia segregowanie naszych stron w kategorie, które następnie możemy udostępnić znajomym.`,
          git: "https://github.com/dawidbros1/bookmarks",
          link: "https://mybookmarks.cf/"
       })
+
 
       this.projects.push({
          name: "Aplikacja do zarządzania zakładkami [ LARAVEL ]",
