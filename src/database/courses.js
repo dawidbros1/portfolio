@@ -46,6 +46,13 @@ class CourseDatabase {
          certificate: "https://www.udemy.com/certificate/UC-9f2c303b-82d4-4279-88ef-7a3b95a142a7/",
          image: "js"
       })
+
+      this.courses.push({
+         name: "Wzorce Projektowe (Design Patterns)",
+         link: "https://www.udemy.com/course/wzorce-projektowe/",
+         certificate: "https://www.udemy.com/certificate/UC-31439e62-0f2d-4983-ba5d-4995f65192a5/",
+         image: "design-patterns"
+      })
    }
 
    get() {
