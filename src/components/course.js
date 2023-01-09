@@ -13,7 +13,7 @@ class Course {
          let component = `
             <div class="course">
                <img class='icon' src="${icon}" alt="obrazek" />
-               <div class='name'>${course.name}</div>
+               <div class='name'><a class = "link" target="_blank" href = "${course.link}">${course.name}</a></div>
                <a class='certificate' target="_blank" href="${course.certificate}" rel="noreferrer">
                   <img src="public/images/certificate.png" alt="certyfikat" />
                </a>
