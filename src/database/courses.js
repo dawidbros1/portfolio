@@ -53,6 +53,13 @@ class CourseDatabase {
          certificate: "https://www.udemy.com/certificate/UC-31439e62-0f2d-4983-ba5d-4995f65192a5/",
          image: "design-patterns"
       })
+
+      this.courses.push({
+         name: "SOLID - praktyczny kurs",
+         link: "https://www.udemy.com/course/praktyczny-kurs-solid/",
+         certificate: "https://www.udemy.com/certificate/UC-b94f99a4-29e2-4e3c-93a0-3b8e3aafc9c0/",
+         image: "solid"
+      })
    }
 
    get() {
