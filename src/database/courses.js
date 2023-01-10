@@ -65,7 +65,7 @@ class CourseDatabase {
          name: "GIT od podstaw dla każdego",
          link: "https://www.udemy.com/course/git-od-podstaw-dla-kazdego/",
          certificate: "https://www.udemy.com/certificate/UC-184a327e-5cc8-45a4-bcc8-97052472ab71/",
-         image: "solid"
+         image: "git"
       })
    }
 
