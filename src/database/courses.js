@@ -60,6 +60,13 @@ class CourseDatabase {
          certificate: "https://www.udemy.com/certificate/UC-b94f99a4-29e2-4e3c-93a0-3b8e3aafc9c0/",
          image: "solid"
       })
+
+      this.courses.push({
+         name: "GIT od podstaw dla każdego",
+         link: "https://www.udemy.com/course/git-od-podstaw-dla-kazdego/",
+         certificate: "https://www.udemy.com/certificate/UC-184a327e-5cc8-45a4-bcc8-97052472ab71/",
+         image: "solid"
+      })
    }
 
    get() {
