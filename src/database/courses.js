@@ -67,6 +67,13 @@ class CourseDatabase {
          certificate: "https://www.udemy.com/certificate/UC-184a327e-5cc8-45a4-bcc8-97052472ab71/",
          image: "git"
       })
+
+      this.courses.push({
+         name: "Docker od podstaw - dla programistów i nie tylko",
+         link: "https://www.udemy.com/course/docker-od-podstaw-dla-programistow-i-nie-tylko/",
+         certificate: "https://www.udemy.com/certificate/UC-5f61f648-4398-42f5-8d7d-03db4a2f9298/",
+         image: "docker"
+      })
    }
 
    get() {
