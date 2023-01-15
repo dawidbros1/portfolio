@@ -74,6 +74,13 @@ class CourseDatabase {
          certificate: "https://www.udemy.com/certificate/UC-5f61f648-4398-42f5-8d7d-03db4a2f9298/",
          image: "docker"
       })
+
+      this.courses.push({
+         name: "Linux - linia komend dla początkujących...",
+         link: "https://www.udemy.com/course/linux101/",
+         certificate: "https://www.udemy.com/certificate/UC-1e3e1beb-c610-4a0e-9525-af433ebd5777/",
+         image: "linux"
+      })
    }
 
    get() {
