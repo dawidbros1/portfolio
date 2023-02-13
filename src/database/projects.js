@@ -6,13 +6,19 @@ class ProjectDatabase {
 
    init() {
       this.projects.push({
+         name: "Aplikacja do wspomagania zarządzania szkołą [ SYMFONY ] [ w trakcie ]",
+         description: `Jest to aplikacja, która będzie wspomagać zarządzanie szkołą.`,
+         git: "https://github.com/dawidbros1/school-app",
+      })
+
+      this.projects.push({
          name: "Aplikacja do segregowania subskrypcji z serwisu YouTube [ PHP ]",
-         description: `Jest to aplikacja, która umożliwia tworzenie pojemników, do których następnie będą dodawane nasze subskrypcje, a także wyświetlanie filmów z danej grupy.`,
+         description: 'Aplikacja umożliwia grupowanie subskrypcji oraz wyświetlanie filmów z danej grupy',
          git: "https://github.com/dawidbros1/youtube-subscription-manager",
       })
 
       this.projects.push({
-         name: "Podstawka do tworzenia aplikacji w technologii PHP",
+         name: "Podstawka do tworzenia aplikacji w technologii PHP [ PHP ]",
          description: `Jest to pakiet startowy plików do tworzenia aplikacji w technologii PHP. 
             Pakiet posiada moduł użytkownika zawierający takie funkcjonalności jak rejestracja/logowanie, zarządzanie profilem oraz przywrócenie hasła.
             Backend pakietu korzysta ze wzorca MVC.`,
@@ -21,8 +27,7 @@ class ProjectDatabase {
 
       this.projects.push({
          name: "Aplikacja do zarządzania zadaniami [ LARAVEL ]",
-         description: `Jest to aplikacja do prostego oraz intuicyjnego zarządzania zadaniami. 
-            Dzięki niej możesz tworzyć kategorie na zadania, do których następnie będziesz mógł dodawać konkretne zadania.`,
+         description: `Jest to aplikacja do prostego oraz intuicyjnego zarządzania zadaniami.`,
          git: "https://github.com/dawidbros1/todo-app",
       })
 
@@ -34,7 +39,6 @@ class ProjectDatabase {
          link: "https://mybookmarks.cf/"
       })
 
-
       this.projects.push({
          name: "Aplikacja do zarządzania zakładkami [ LARAVEL ]",
          description: `Jest to rozszerzona wersja aplikacji napisanej w języku PHP. 
@@ -43,7 +47,7 @@ class ProjectDatabase {
       })
 
       this.projects.push({
-         name: "Proste forum internetowe [ Symfony ]",
+         name: "Proste forum internetowe [ SYMFONY ]",
          description: `Jest to proste forum internetowe umożliwiające tworzenie wątków dla administratora, a także tematów, postów i komentarzy dla użytkowników.`,
          git: "https://github.com/dawidbros1/forum",
       })
